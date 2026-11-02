@@ -217,3 +217,52 @@ button:disabled {
     gap: 16px;
     margin-bottom: 16px;
 }
+
+/* PANELS */
+
+.panel {
+    min-width: 0;
+    padding: 23px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+    background: rgba(17, 43, 72, 0.82);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(12px);
+}
+
+.current-panel {
+    display: flex;
+    min-height: 365px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(145deg,
+            rgba(71, 151, 211, 0.25),
+            rgba(17, 43, 72, 0.82));
+}
+
+.panel-topline {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.panel h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+#cityName {
+    max-width: 360px;
+    overflow-wrap: anywhere;
+}
+
+.muted,
+.section-note {
+    color: #9eb2ca;
+}
+
+#localDate {
+    margin-top: 5px;
+    font-size: 12px;
+}
