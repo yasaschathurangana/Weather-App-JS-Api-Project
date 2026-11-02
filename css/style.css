@@ -72,3 +72,30 @@ button {
 .topbar-actions {
     gap: 9px;
 }
+
+/* BUTTONS */
+
+.icon-button,
+.location-button,
+.text-button {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: #f4f8ff;
+    background: rgba(255, 255, 255, 0.06);
+    transition: 0.2s ease;
+}
+
+.icon-button {
+    min-width: 43px;
+    height: 42px;
+    padding: 0 13px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.icon-button:hover,
+.location-button:hover,
+.text-button:hover,
+.recent-chip:hover {
+    background: rgba(128, 200, 255, 0.16);
+    border-color: rgba(128, 200, 255, 0.45);
+}
