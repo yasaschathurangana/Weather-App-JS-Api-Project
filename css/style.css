@@ -338,3 +338,61 @@ button:disabled {
     color: #f4f8ff;
     font-weight: 600;
 }
+
+/* SECTION HEADINGS */
+
+.section-heading {
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 19px;
+}
+
+.section-heading .eyebrow {
+    margin-bottom: 6px;
+}
+
+.section-note {
+    font-size: 11px;
+}
+
+/* WEATHER METRICS */
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.metric-card {
+    min-height: 125px;
+    padding: 13px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.055);
+}
+
+.metric-icon {
+    display: block;
+    margin-bottom: 9px;
+    color: #80c8ff;
+    font-size: 18px;
+}
+
+.metric-card p {
+    margin-bottom: 6px;
+    color: #9eb2ca;
+    font-size: 11px;
+}
+
+.metric-card strong {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.metric-card small {
+    display: block;
+    margin-top: 4px;
+    color: #9eb2ca;
+    font-size: 10px;
+}
