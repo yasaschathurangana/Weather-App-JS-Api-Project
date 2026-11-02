@@ -26,3 +26,49 @@ button {
     width: min(1180px, 100%);
     margin: 0 auto;
 }
+/* TOP BAR */
+
+.topbar,
+.topbar-actions,
+.brand,
+.intro-row,
+.search-form,
+.section-heading,
+.panel-topline,
+.current-weather-content,
+.current-footer,
+.chart-heading,
+.sun-time-card,
+.recent-list {
+    display: flex;
+    align-items: center;
+}
+
+.topbar {
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.brand {
+    gap: 10px;
+    color: #f4f8ff;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+}
+
+.brand-icon {
+    display: grid;
+    width: 35px;
+    height: 35px;
+    place-items: center;
+    border-radius: 12px;
+    background: rgba(128, 200, 255, 0.17);
+    color: #ffe08a;
+    font-size: 22px;
+}
+
+.topbar-actions {
+    gap: 9px;
+}
