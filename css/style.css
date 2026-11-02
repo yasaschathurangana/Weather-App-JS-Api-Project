@@ -195,3 +195,16 @@ button:disabled {
     border-radius: 9px;
     font-size: 12px;
 }
+
+/* STATUS MESSAGE */
+
+.status-message {
+    min-height: 22px;
+    margin: 4px 0 10px;
+    color: #ffd48a;
+    font-size: 13px;
+}
+
+.status-message.error {
+    color: #ffaaa8;
+}
