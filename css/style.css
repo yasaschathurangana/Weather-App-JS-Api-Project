@@ -74,39 +74,6 @@ button {
     gap: 9px;
 }
 
-/* RECENT LOCATIONS */
-
-.recent-panel .section-heading {
-    margin-bottom: 12px;
-}
-
-.text-button {
-    padding: 7px 10px;
-    border-radius: 9px;
-    font-size: 11px;
-}
-
-.recent-list {
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.recent-chip {
-    padding: 8px 12px;
-    border: 1px solid rgba(255, 255, 255, 0.10);
-    border-radius: 20px;
-    color: #f4f8ff;
-    background: rgba(255, 255, 255, 0.055);
-    font-size: 11px;
-    transition: 0.2s ease;
-}
-
-.placeholder-text {
-    padding: 10px 0;
-    color: #9eb2ca;
-    font-size: 12px;
-}
-
 /* BUTTONS */
 
 .icon-button,
@@ -543,6 +510,39 @@ button:disabled {
     font-size: 10px;
 }
 
+/* RECENT LOCATIONS */
+
+.recent-panel .section-heading {
+    margin-bottom: 12px;
+}
+
+.text-button {
+    padding: 7px 10px;
+    border-radius: 9px;
+    font-size: 11px;
+}
+
+.recent-list {
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.recent-chip {
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+    color: #f4f8ff;
+    background: rgba(255, 255, 255, 0.055);
+    font-size: 11px;
+    transition: 0.2s ease;
+}
+
+.placeholder-text {
+    padding: 10px 0;
+    color: #9eb2ca;
+    font-size: 12px;
+}
+
 /* FOOTER */
 
 .app-footer {
@@ -562,4 +562,93 @@ button:disabled {
 
 .app-footer a:hover {
     text-decoration: underline;
+}
+
+/* TABLET RESPONSIVE DESIGN */
+
+@media (max-width: 900px) {
+    .intro-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .search-area {
+        width: 100%;
+    }
+
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .current-panel {
+        min-height: 315px;
+    }
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 620px) {
+    body {
+        padding: 18px 12px 28px;
+    }
+
+    .topbar {
+        margin-bottom: 30px;
+    }
+
+    .intro-row {
+        gap: 20px;
+    }
+
+    .intro-row h1 {
+        font-size: 32px;
+    }
+
+    .panel {
+        padding: 17px;
+        border-radius: 16px;
+    }
+
+    .metrics-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .metric-card {
+        min-height: 112px;
+    }
+
+    .daily-grid,
+    .day-card {
+        grid-template-columns: 1fr auto;
+    }
+
+    .current-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .temperature {
+        font-size: 65px;
+    }
+
+    .current-footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+/* SMALL MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 380px) {
+    .search-form {
+        flex-wrap: wrap;
+    }
+
+    .search-form input {
+        width: calc(100% - 55px);
+    }
+
+    .primary-button {
+        width: 100%;
+    }
 }
