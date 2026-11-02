@@ -266,3 +266,27 @@ button:disabled {
     margin-top: 5px;
     font-size: 12px;
 }
+
+/* LIVE STATUS */
+
+.live-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border: 1px solid rgba(111, 221, 170, 0.25);
+    border-radius: 20px;
+    color: #9df0c5;
+    background: rgba(111, 221, 170, 0.08);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.live-pill span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #63e4a2;
+    box-shadow: 0 0 9px #63e4a2;
+}
