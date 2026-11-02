@@ -74,6 +74,39 @@ button {
     gap: 9px;
 }
 
+/* RECENT LOCATIONS */
+
+.recent-panel .section-heading {
+    margin-bottom: 12px;
+}
+
+.text-button {
+    padding: 7px 10px;
+    border-radius: 9px;
+    font-size: 11px;
+}
+
+.recent-list {
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.recent-chip {
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+    color: #f4f8ff;
+    background: rgba(255, 255, 255, 0.055);
+    font-size: 11px;
+    transition: 0.2s ease;
+}
+
+.placeholder-text {
+    padding: 10px 0;
+    color: #9eb2ca;
+    font-size: 12px;
+}
+
 /* BUTTONS */
 
 .icon-button,
