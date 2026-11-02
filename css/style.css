@@ -99,3 +99,33 @@ button {
     background: rgba(128, 200, 255, 0.16);
     border-color: rgba(128, 200, 255, 0.45);
 }
+
+/* INTRO SECTION */
+
+.intro-row {
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 22px;
+}
+
+.eyebrow {
+    margin-bottom: 8px;
+    color: #80c8ff;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+}
+
+.intro-row h1 {
+    max-width: 570px;
+    font-size: clamp(29px, 4vw, 43px);
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+}
+
+.intro-copy {
+    margin-top: 10px;
+    color: #9eb2ca;
+    font-size: 14px;
+}
